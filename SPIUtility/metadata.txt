@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=SPI Utility
+qgisMinimumVersion=2.0
+description=Calculates and Analyses the Standardized Precipitation Index using IMD Precipitation Data
+version=1.0.7
+author=Dr. Bhaskar R Nikam | Manaruchi Mohapatra | Gunjan Kour
+email=spiutility@gmail.com
+
+about=SPI Utility stands for Standardized Precipitation Index Utility. It generates SPI values in various timescales like monthly, quarterly, half yearly, annualy for temporal IMD Precipitation Data. This utility is useful for determination and quantification of different categories of drought. It also enables the user to analyse and classify the result in different categories of drought and wetness conditions.
+
+tracker=Bug
+repository=Repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Raster
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
